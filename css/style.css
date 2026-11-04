@@ -262,6 +262,9 @@ ul { list-style: none; }
   line-height: 1.5;
 }
 .hosts li { padding-block: 7px; white-space: nowrap; }
+.hosts__late small { display: block; color: var(--gold-deep); font-size: 1em; }
+/* سطر «أسرة المرحوم» يرتفع فوق الصفوف ليتقابل كل اسم مع نظيره */
+.hosts ul + ul { padding-top: 1.5em; }
 
 .lead {
   margin-top: 24px;
@@ -297,9 +300,16 @@ ul { list-style: none; }
   font: 700 clamp(21px, 6vw, 40px)/1 var(--font-body);
   padding-bottom: .34em;
 }
+.person__job {
+  min-height: 2.8em;
+  margin-top: 4px;
+  color: var(--gold-deep);
+  font-weight: 700;
+  font-size: clamp(14.5px, 3.9vw, 19px);
+  line-height: 1.4;
+}
 .couple__and {
-  align-self: end;
-  padding-bottom: .5em;
+  align-self: center;
   color: var(--gold-deep);
   font: 700 clamp(26px, 7vw, 38px)/1.5 var(--font-body);
 }
@@ -457,6 +467,7 @@ ul { list-style: none; }
 /* أضيق الهواتف: عمود واحد حتى لا تنكسر الأسماء */
 @media (max-width: 359px) {
   .hosts { grid-template-columns: 1fr; font-size: 16px; }
+  .hosts ul + ul { padding-top: 0; }
 }
 
 @media (prefers-reduced-motion: reduce) {
