@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Saleh & Shorouk//Wedding Invitation//AR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:saleh-shorouk-wedding-20261111@invitation
+DTSTAMP:20261104T000000Z
+DTSTART:20261111T190000Z
+DTEND:20261111T220000Z
+SUMMARY:حفل زفاف صالح وشروق
+LOCATION:قرية ميريلاند السياحي، قاعة الجولف
+ ، طريق المحلة – طنطا
+DESCRIPTION:وبحضوركم يتم لنا الفرح والسرور\nhtt
+ ps://maps.app.goo.gl/nTgmNXVhfN1dQW1M9
+END:VEVENT
+END:VCALENDAR
